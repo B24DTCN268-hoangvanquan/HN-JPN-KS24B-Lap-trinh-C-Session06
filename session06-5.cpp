@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
 	int thang,nam,ngay;
-	printf("nhap thang");
+	printf("nhap thang ");
 	scanf("%d", &thang);
-	printf("nhap nam");
+	printf("nhap nam ");
 	scanf("%d", &nam);
 	
 	if((nam%4==0&&nam%100!=0)||(nam%400==0)){
@@ -33,6 +33,6 @@ int main(){
 			printf("khong hop le");
 		}
 	}
-	printf("%d",ngay);
+	printf("co %d ngay", ngay);
 	return 0;
 }
